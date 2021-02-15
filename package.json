@@ -1,7 +1,7 @@
 {
-  "name": "bythealphabet-mern-stack-template",
+  "name": "bythealphabet-node-ssg-template",
   "version": "1.0.0",
-  "description": "A template for building MERN stack web applications.",
+  "description": "simple static site generator.",
   "main": "server/server.js",
   "scripts": {
     "clean": "rm -r dist ",
@@ -11,22 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bythealphabet/bythealphabet-mern-stack-template.git"
+    "url": "git+https://github.com/bythealphabet/node-ssg"
   },
   "keywords": [
-    "MERN",
     "REACTJS",
+    "EXPRESS",
     "NODE",
-    "MONGO",
-    "MONGOOSE",
-    "EXPRESS"
+    "SSG"
   ],
   "author": "Dudley Isaac Lucas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bythealphabet/bythealphabet-mern-stack-template/issues"
+    "url": "https://github.com/bythealphabet/node-ssg/issues"
   },
-  "homepage": "https://github.com/bythealphabet/bythealphabet-mern-stack-template#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -52,7 +49,6 @@
   "dependencies": {
     "@babel/runtime": "^7.12.5",
     "express": "^4.17.1",
-    "mongoose": "^5.11.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hot-loader": "^4.13.0"
